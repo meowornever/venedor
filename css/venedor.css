@@ -1,0 +1,170 @@
+/* generic */
+:root{
+    --prim:#f6f4f7 ;
+    --sec:#12bfcd ;
+    --text:#c1c1c1 ;
+    --socialColor:#65696a ;
+    --buttonColor:#434b4b ;
+    --headerColor:#f4f4f2;
+    --footerColor: #d5d7d6;
+    --headerFont: 'helvetica' ;
+    --textFont: 'arial';
+   
+   
+}
+
+*{box-sizing: border-box;}
+
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+  }
+
+  body{
+    background-color: #ffff;
+}
+
+a{
+    text-decoration: none;
+    color: var(--socialColor);
+}
+
+a:hover{
+    color: var(--sec);
+    text-decoration: none;
+}
+
+/* end generic */
+
+/* header */
+
+.top-header{
+    border-top: 2px solid var(--sec);
+    background-color: var(--headerColor);
+    
+}
+
+.top-nav-item{
+    padding-right: 20px;
+    
+    
+    
+}
+
+.icon-edit, .icon-user, .icon-cart, .icon-checkmark{
+    padding-right: 3px;  
+    color: var(--socialColor)
+}
+
+.welcomeHeader{
+    color: var(--socialColor);
+}
+
+ .dropDownMenues{
+    margin-top: 40px;
+    
+} 
+
+.carousel-inner{
+    margin-top: 10px;
+    margin-bottom: 10px; 
+    background-color: #ededeb;
+    }
+.welcome2{
+    margin-top: 30px;
+    font-family: var(--headerFont);
+}
+
+.laptop{
+    margin-top: 20px;
+}
+    
+.latest{
+        margin-top: 20px;
+        padding-left: 3px;
+        border-left: 3px solid var(--sec);
+        font-family: var(--headerFont);
+    }
+    
+.button{
+    color: white;
+    background-color: var(--buttonColor);
+ }
+           
+.laptop{
+  padding-top:30px;
+}
+               
+.sub-header1{
+    padding-left: 3px;
+   border-left: 3px solid var(--sec);
+}
+               
+.manu-images{
+   margin-top: 40px;
+   margin-bottom: 70px;    
+ }
+               
+ .block1-text{
+    font-size: calc(14px + (16 - 14) * ((100vw - 300px) / (1600 - 300)));
+ }           
+/* footer */
+               
+               
+.top-footer{
+     padding: 25px;
+     background-color: var(--footerColor);
+                   
+}
+               
+.bottom-footer{
+     background-color: var(--buttonColor);
+}
+
+.form-control{
+    border: 4px solid  #e1d9aa;
+    background-color: var(--footerColor)
+}
+
+ .footer-social{
+                   
+     background-color: var(--buttonColor);
+ }
+               
+.icon-facebook, .icon-twitter, .icon-feed, .icon-github, .icon-linkedin, .icon-skype, .icon-phone, .icon-envelop{
+    color: white;
+    font-size: 30px;
+    padding: 5px;
+    background-color: var(--socialColor);
+}
+               
+.footer-h3{
+    color: white;
+    font-family: var(--textFont);
+    text-transform: uppercase;
+    font-size: calc(14px + (15 - 14) * ((100vw - 300px) / (1600 - 300)));
+}     
+   
+.myAccount-list, .information-list, .twitter-updates{
+    color: white;
+    font-family: var(--textFont) ;
+    font-size: calc(14px + (15 - 14) * ((100vw - 300px) / (1600 - 300)));
+}
+    
+.colophon-text{
+    color: white;
+}
+
+.btn{
+    background-color: var(--buttonColor);
+    border: var(--buttonColor);
+}
+
+.sign-up{
+    font-family: var(--headerFont);
+}
+
